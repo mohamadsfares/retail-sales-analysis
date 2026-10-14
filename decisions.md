@@ -11,3 +11,7 @@
 - Found: 34,335 rows were exact duplicates (about 3%), partly because the two yearly sheets overlap in early December 2010.
 - Decision: Remove exact duplicates, keeping the first copy.
 - Why: Counting the same sale twice would make totals too high. A few may have been genuine repeat lines, but we cannot tell them apart.
+## 4. Huge orders cancelled by mistake
+- Found: Two sales were enormous (80,995 and 74,215 units, invoices 581483 and 541431), and each was cancelled minutes later by the same customer.
+- Decision: Remove these two orders from the sales table.
+- Why: They were never real sales. Keeping them made two products look like top sellers. Smaller orders that were later cancelled are still counted; this is noted as a limitation.
