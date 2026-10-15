@@ -15,3 +15,11 @@
 - Found: Two sales were enormous (80,995 and 74,215 units, invoices 581483 and 541431), and each was cancelled minutes later by the same customer.
 - Decision: Remove these two orders from the sales table.
 - Why: They were never real sales. Keeping them made two products look like top sellers. Smaller orders that were later cancelled are still counted; this is noted as a limitation.
+## 5. Product identity
+- Found: Some descriptions had extra spaces, 231 product codes were sold under more than one name, and some codes appeared in lowercase (e.g. 85123a).
+- Decision: Strip spaces from descriptions, make stock codes uppercase, and group products by stock code, using the latest description as the label.
+- Why: Otherwise one product's revenue was split across several names or codes, which understated top sellers such as the Jumbo Bag Red Retrospot.
+## 6. Incomplete last month
+- Found: The data ends on 9 December 2011, so that month has only 9 days of sales.
+- Decision: Exclude December 2011 from monthly comparisons.
+- Why: A partial month would look like a sharp drop that never happened.

@@ -15,6 +15,19 @@ The company has records of a million rows. Each row has one product on one invoi
 - Which customers used to buy regularly but have churned?
 
 Each finding will come with a recommended action for the business, for example on inventory management.
+## Findings
+
+### 1. Top products by revenue
+- A few products dominate: the Regency Cakestand 3 Tier (about £331k) earned over twice as much as the 4th-ranked product, and the top two products together brought in about £592k.
+- Several top sellers appear to be Christmas items (paper chain kits, angel T-light holders, chilli lights). This will be checked against monthly sales in finding 2.
+
+**Recommended action:** Keep the top two products in stock at all times, since running out would cost the most revenue. Build up stock of the Christmas items ahead of the season; finding 2 will show how early.
+### 2. Sales over the year
+- Sales follow the same pattern in both years: they are low from January to August, climb from September, and peak in November at about £1.5 million, around twice the level of the quietest months (February and April).
+- The peak comes before Christmas because the customers are mainly shops, which buy their Christmas stock one to three months in advance.
+- December 2011 is excluded from the comparison, because the data ends on 9 December 2011.
+
+**Recommended action:** Have stock of the top and Christmas products in place by the end of August, ready for the September–November peak. Use the quiet months (January–April) for promotions or clearance.
 
 ## Limitations
 
