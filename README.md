@@ -29,6 +29,13 @@ Each finding will come with a recommended action for the business, for example o
 - The most seasonal products fall into two groups: Christmas items (advent calendars, decorations, festive tableware) and cold-weather items (hand warmers), each earning 85–94% of their revenue in September–November. Most were first sold in mid-September 2010, suggesting the company launches its seasonal range each September.
 
 **Recommended action:** Have stock of the top and Christmas products in place by the end of August, ready for the September–November peak. Use the quiet months (January–April) for promotions or clearance.
+### 3. Most valuable and most loyal customers
+- Revenue is highly concentrated: the top 10 of 5,878 known customers (0.17%) bring in 16% of the revenue from known customers.
+- Valuable and loyal are not the same. Only 4 customers are in both the top 10 by revenue and the top 10 by number of orders.
+- There are two very different kinds of important customer: big occasional buyers (e.g. customer 12415: 28 orders, about £5,160 per order) and small frequent buyers (e.g. customer 12748: 336 orders, about £160 per order).
+- This covers only sales with a Customer ID, about 85% of total revenue.
+
+**Recommended action:** Give the top 10 customers personal account management: a named contact, priority stock and regular check-ins. Watch big occasional buyers closely, since one missed order from them costs thousands; finding 5 will look at customers who stopped buying.
 
 ## Limitations
 
