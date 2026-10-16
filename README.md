@@ -19,13 +19,14 @@ Each finding will come with a recommended action for the business, for example o
 
 ### 1. Top products by revenue
 - A few products dominate: the Regency Cakestand 3 Tier (about £331k) earned over twice as much as the 4th-ranked product, and the top two products together brought in about £592k.
-- Several top sellers appear to be Christmas items (paper chain kits, angel T-light holders, chilli lights). This will be checked against monthly sales in finding 2.
+- Most top sellers sell all year round. Only two of the top 10 are strongly seasonal: the Paper Chain Kit 50's Christmas and the Rotating Silver Angels T-Light Holder, each earning over 70% of its revenue in September–November (the average product earns 36% in those months).
 
-**Recommended action:** Keep the top two products in stock at all times, since running out would cost the most revenue. Build up stock of the Christmas items ahead of the season; finding 2 will show how early.
+**Recommended action:** Keep the top year-round products (the Regency Cakestand, Cream Hanging Heart and Jumbo Bags) in stock at all times, since running out would cost the most revenue. Plan stock of the seasonal top sellers separately, around the autumn peak.
 ### 2. Sales over the year
 - Sales follow the same pattern in both years: they are low from January to August, climb from September, and peak in November at about £1.5 million, around twice the level of the quietest months (February and April).
 - The peak comes before Christmas because the customers are mainly shops, which buy their Christmas stock one to three months in advance.
 - December 2011 is excluded from the comparison, because the data ends on 9 December 2011.
+- The most seasonal products fall into two groups: Christmas items (advent calendars, decorations, festive tableware) and cold-weather items (hand warmers), each earning 85–94% of their revenue in September–November. Most were first sold in mid-September 2010, suggesting the company launches its seasonal range each September.
 
 **Recommended action:** Have stock of the top and Christmas products in place by the end of August, ready for the September–November peak. Use the quiet months (January–April) for promotions or clearance.
 

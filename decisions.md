@@ -23,3 +23,7 @@
 - Found: The data ends on 9 December 2011, so that month has only 9 days of sales.
 - Decision: Exclude December 2011 from monthly comparisons.
 - Why: A partial month would look like a sharp drop that never happened.
+## 7. Measuring seasonality
+- Found: Products with very small sales, or launched during the autumn, showed a high share of revenue in September–November without being truly seasonal (e.g. Jumbo Bag Paisley Park, first sold in October 2011).
+- Decision: Only rank products with at least £10,000 revenue that were first sold before 2011.
+- Why: These products had enough sales, and a full set of quiet months, for their seasonal share to be meaningful.
