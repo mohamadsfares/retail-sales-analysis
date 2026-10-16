@@ -36,7 +36,11 @@ Each finding will come with a recommended action for the business, for example o
 - This covers only sales with a Customer ID, about 85% of total revenue.
 
 **Recommended action:** Give the top 10 customers personal account management: a named contact, priority stock and regular check-ins. Watch big occasional buyers closely, since one missed order from them costs thousands; finding 5 will look at customers who stopped buying.
+### 4. Countries outside the UK
+- The top markets outside the UK are Ireland (EIRE, £659k), the Netherlands (£554k), Germany (£425k) and France (£350k).
+- These markets work very differently. Ireland's revenue comes from just 5 customers (about £132k each) and the Netherlands' from 22, while Germany (107 customers, about £4k each) and France (95) have many smaller customers.
 
+**Recommended action:** In Ireland and the Netherlands, protect the few large accounts with personal account management, and look for new customers to reduce the dependence on them. In Germany and France, focus on growing order sizes and attracting larger wholesale buyers.
 ## Limitations
 
 - The data has selling prices but not product costs, so we measure revenue, not profit.
