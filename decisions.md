@@ -27,3 +27,7 @@
 - Found: Products with very small sales, or launched during the autumn, showed a high share of revenue in September–November without being truly seasonal (e.g. Jumbo Bag Paisley Park, first sold in October 2011).
 - Decision: Only rank products with at least £10,000 revenue that were first sold before 2011.
 - Why: These products had enough sales, and a full set of quiet months, for their seasonal share to be meaningful.
+## 8. Definition of a churned customer
+- Found: Customers order at very different rhythms, from every few days to a few times a year, so one fixed silence period (e.g. 60 days) would wrongly flag slow but active buyers.
+- Decision: A customer is churned if they have at least 5 orders, and their days since the last order are more than twice their usual gap between orders and more than 90 days.
+- Why: The rule adapts to each customer's own buying rhythm; the 90-day minimum avoids flagging frequent buyers after a short pause.

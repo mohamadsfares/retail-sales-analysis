@@ -41,6 +41,13 @@ Each finding will come with a recommended action for the business, for example o
 - These markets work very differently. Ireland's revenue comes from just 5 customers (about £132k each) and the Netherlands' from 22, while Germany (107 customers, about £4k each) and France (95) have many smaller customers.
 
 **Recommended action:** In Ireland and the Netherlands, protect the few large accounts with personal account management, and look for new customers to reduce the dependence on them. In Germany and France, focus on growing order sizes and attracting larger wholesale buyers.
+### 5. Customers who stopped buying
+- A regular customer (at least 5 orders) is counted as churned when they have not ordered for more than twice their usual time between orders, and for more than 90 days.
+- 374 of 2,161 regular customers (17%) have churned. Together they had spent £1.37 million, 8% of the revenue from known customers.
+- Several were among the most frequent buyers. For example, customer 17850 placed 155 orders, about one every 2 days, and has not ordered since December 2010.
+- None of the top 10 customers by revenue has churned. Of the top 10 by number of orders, one has: customer 17850.
+
+**Recommended action:** Have the sales team contact the most valuable churned customers first, starting with the top 10 by past spending, to learn why they left and try to win them back. Before that, check whether any of them simply moved to a new account. Track this list monthly so lapsing customers are spotted early, before they are lost.
 ## Limitations
 
 - The data has selling prices but not product costs, so we measure revenue, not profit.
