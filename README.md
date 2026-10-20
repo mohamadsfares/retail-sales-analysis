@@ -1,5 +1,7 @@
 # Retail Sales Analysis
+An end-to-end analysis of two years of sales from a UK online gift retailer, from raw data to business recommendations and a live dashboard.
 
+**Live dashboard:** https://mohamad-retail-dashboard.streamlit.app/
 ## Problem
 The company has records of a million rows. Each row has one product on one invoice: the invoice number, product code and description, quantity, date, unit price, customer ID and country. But it does not understand the records: it cannot tell which products and which customers bring in the money or when demand rises and falls, so it cannot take decisions about stock and marketing.
 ## Why it matters
@@ -13,6 +15,8 @@ The company has records of a million rows. Each row has one product on one invoi
 - Who are our most loyal and most valuable customers, and how much do they spend?
 - Which countries outside the UK bring in the most revenue?
 - Which customers used to buy regularly but have churned?
+## Data
+[Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) from the UCI Machine Learning Repository: about 1.07 million transaction lines from December 2009 to December 2011. Each row is one product on one invoice, with quantity, price, date, customer ID and country. After cleaning, 1,007,910 real sales lines remain; every cleaning decision is recorded in [decisions.md](decisions.md).
 
 Each finding will come with a recommended action for the business, for example on inventory management.
 ## Findings
@@ -48,11 +52,33 @@ Each finding will come with a recommended action for the business, for example o
 - None of the top 10 customers by revenue has churned. Of the top 10 by number of orders, one has: customer 17850.
 
 **Recommended action:** Have the sales team contact the most valuable churned customers first, starting with the top 10 by past spending, to learn why they left and try to win them back. Before that, check whether any of them simply moved to a new account. Track this list monthly so lapsing customers are spotted early, before they are lost.
+## Key recommendations
+1. Keep the top year-round products (Regency Cakestand, Cream Hanging Heart, Jumbo Bags) always in stock.
+2. Have seasonal stock in place by the end of August, ahead of the September–November peak.
+3. Give the top 10 customers, who bring in 16% of revenue, personal account management.
+4. In Ireland and the Netherlands, protect the few large accounts; in Germany and France, grow order sizes.
+5. Contact the most valuable churned customers first, and track churn monthly.
 ## SQL verification
 The main results were recalculated in SQL (SQLite) in `03_sql.ipynb`: total revenue, top products, monthly revenue, countries and top customers. All SQL results match the pandas analysis exactly.
 ## Limitations
 
 - The data has selling prices but not product costs, so we measure revenue, not profit.
 - The data records sales only, not stock levels, so we cannot see when items ran out.
+- Customer analyses use only sales with a Customer ID, about 85% of revenue.
+- Two huge orders cancelled by mistake were removed; smaller orders cancelled later may still be counted.
 
+## Project structure
+- `01_explore.ipynb`: data loading, exploration and cleaning
+- `02_analysis.ipynb`: analysis of the five business questions
+- `03_sql.ipynb`: SQL verification of the main results
+- `app.py`: the Streamlit dashboard, using the summary files in `outputs/`
+- `decisions.md`: log of cleaning and analysis decisions
 
+## How to run
+1. Download the dataset from the link above and place `online_retail_II.xlsx` in a `data/` folder.
+2. Install the libraries: `pip install pandas matplotlib openpyxl streamlit`
+3. Run the notebooks in order: `01`, `02`, `03`.
+4. Start the dashboard: `streamlit run app.py`
+
+## Tools
+Python (pandas, matplotlib), SQL (SQLite), Streamlit, Git and GitHub.

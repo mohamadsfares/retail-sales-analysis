@@ -1,4 +1,4 @@
-Customer ID,Revenue,Orders,last_purchase,DaysSince,first_purchase,usual_gap,Churned
+Customer ID,Revenue,Orders,LastPurchase,DaysSince,FirstPurchase,UsualGap,Churned
 16754.0,65500.07,29,2010-12-02 17:38:00,371,2010-03-08 11:32:00,9.607142857142858,True
 13093.0,54144.25,55,2011-03-09 12:14:00,275,2009-12-04 10:32:00,8.518518518518519,True
 17850.0,51208.87,155,2010-12-02 15:27:00,371,2009-12-05 12:28:00,2.3506493506493507,True
