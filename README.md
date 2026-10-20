@@ -48,6 +48,8 @@ Each finding will come with a recommended action for the business, for example o
 - None of the top 10 customers by revenue has churned. Of the top 10 by number of orders, one has: customer 17850.
 
 **Recommended action:** Have the sales team contact the most valuable churned customers first, starting with the top 10 by past spending, to learn why they left and try to win them back. Before that, check whether any of them simply moved to a new account. Track this list monthly so lapsing customers are spotted early, before they are lost.
+## SQL verification
+The main results were recalculated in SQL (SQLite) in `03_sql.ipynb`: total revenue, top products, monthly revenue, countries and top customers. All SQL results match the pandas analysis exactly.
 ## Limitations
 
 - The data has selling prices but not product costs, so we measure revenue, not profit.
